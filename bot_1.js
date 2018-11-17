@@ -1,6 +1,5 @@
-const Discord = require('discord.js');
-
-const Util = require('discord.js');
+onst Discord = require('discord.js');
+const client = new Discord.Client();
 
 const getYoutubeID = require('get-youtube-id');
 
