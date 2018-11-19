@@ -1,5 +1,6 @@
-onst Discord = require('discord.js');
+const Discord = require('discord.js');
 const client = new Discord.Client();
+console.log("Scrpit By ♛ 『DE』 NovritschPro#6808");
 
 const getYoutubeID = require('get-youtube-id');
 
@@ -352,4 +353,5 @@ client.user.setGame(`$play | Last Music`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
+
